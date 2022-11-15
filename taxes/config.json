@@ -1,5 +1,13 @@
 {
-    "gross income": 62000,
+    "annual gross income": 62000,
+
+    "monthly retirement contribution": 258.33,
+
+    "insurance":{
+        "dental ins (monthly)": 0,
+        "health ins (monthly)": 0,
+        "vision ins (monthly)": 14.48
+    },
 
     "single filer":{
         "tax rate": [0.10, 0.12, 0.22, 0.24, 0.32, 0.35, 0.37],
@@ -14,7 +22,11 @@
     },
 
     "fica":{
-        "social security": 0.062,
-        "medicare": 0.0145
+        "medicare": 0.0145,
+        "social security": 0.062
+    },
+
+    "state tax":{
+        "IL": 0.0476
     }
 }
